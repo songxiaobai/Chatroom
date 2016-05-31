@@ -101,7 +101,7 @@ public class ChatDemo implements Runnable{
 	public void run(){
 		while(flag){
 			String s = "";
-			try {
+			try {                          //异常处理
 				s = dis.readUTF();
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
